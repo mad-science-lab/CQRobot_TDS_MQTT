@@ -34,5 +34,5 @@ The CQRobot TDS Meter Sensor measures Total Dissolved Solids in water and is com
 mqtt:
   sensor:
     - name: "TDS"
-      state_topic: "TDSsensor/data/TDS"
+      state_topic: "'SensorName'/data/TDS"
 ```
